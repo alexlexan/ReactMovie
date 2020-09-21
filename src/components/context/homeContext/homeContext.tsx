@@ -18,4 +18,5 @@ type HomeState = {
   loadMoreMovies: () => void;
 };
 
+// @ts-ignore
 export const HomeContext = createContext<HomeState>();
