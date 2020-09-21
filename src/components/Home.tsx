@@ -14,6 +14,8 @@ import NotFound from "./NotFound";
 import NoImage from "./images/no_image.jpg";
 
 const Home = () => {
+  console.log(process.env);
+  debugger;
   const {
     searchTerm,
     movies,
@@ -26,7 +28,6 @@ const Home = () => {
     searchMovies,
     loadMoreMovies,
   } = useContext(HomeContext);
-
   if (error) return <div>Something went wrong ...</div>;
   if (!movies[0] && isResult) return <Spinner />;
 

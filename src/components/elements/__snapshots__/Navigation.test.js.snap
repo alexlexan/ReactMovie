@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Navigation component should render Navigation component props 1`] = `
+<styled.div>
+  <div
+    className="navigation-content"
+  >
+    <Link
+      to="/"
+    >
+      <p>
+        Home
+      </p>
+    </Link>
+    <p>
+      |
+    </p>
+    <p />
+  </div>
+</styled.div>
+`;
+
+exports[`should render Navigation component should render Navigation component with default props 1`] = `
+<styled.div>
+  <div
+    className="navigation-content"
+  >
+    <Link
+      to="/"
+    >
+      <p>
+        Home
+      </p>
+    </Link>
+    <p>
+      |
+    </p>
+    <p>
+      Default value
+    </p>
+  </div>
+</styled.div>
+`;
